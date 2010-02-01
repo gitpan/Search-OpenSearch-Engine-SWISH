@@ -1,0 +1,24 @@
+--- #YAML:1.0
+name:               Search-OpenSearch-Engine-SWISH
+version:            0.01
+abstract:           Swish-e 2.x server with OpenSearch results
+author:
+    - Peter Karman <karman@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Search::OpenSearch:  0
+    SWISH::Prog:         0.37
+    Test::More:          0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
