@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Search-OpenSearch-Engine-SWISH
-version:            0.01
+version:            0.02
 abstract:           Swish-e 2.x server with OpenSearch results
 author:
     - Peter Karman <karman@cpan.org>
