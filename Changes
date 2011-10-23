@@ -6,3 +6,5 @@ Revision history for Search-OpenSearch-Engine-SWISH
 0.02    28 Feb 2010
         * fix test to check for SWISH::API::Object first.
 
+0.03    22 Oct 2011
+        * fix documentation

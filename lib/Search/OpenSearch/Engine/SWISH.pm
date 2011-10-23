@@ -6,7 +6,7 @@ use Carp;
 use base qw( Search::OpenSearch::Engine );
 use SWISH::Prog::Native::Searcher;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub init_searcher {
     my $self     = shift;
@@ -30,7 +30,7 @@ Search::OpenSearch::Engine::SWISH - Swish-e 2.x server with OpenSearch results
 
 =head2 init_searcher
 
-Returns a SWISH::Prog::KSx::Searcher object.
+Returns a SWISH::Prog::Native::Searcher object.
 
 =head1 AUTHOR
 
